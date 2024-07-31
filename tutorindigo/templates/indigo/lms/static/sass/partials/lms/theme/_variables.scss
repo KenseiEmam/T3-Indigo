@@ -1,4 +1,4 @@
-$primary: {{ INDIGO_PRIMARY_COLOR }};
+
 $primary-light: #F2F7F8;
 
 // Theme fonts
@@ -16,6 +16,20 @@ $dark: #111827;
 $light-dark: #374151;
 $big-screen: 1200px;
 
+$primary:       #212D63 !default;
+$secondary:     #00ADEE !default;
+$inverse:       $white !default;
+$disabled:      $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$purchase:      $green !default;
+$lightest:      $gray-100 !default;
+$light:         $gray-200 !default;
+$dark:          $gray-800 !default;
+$darker:        $gray-900 !default;
+$darkest:       $black !default;
 
 
 // Introducing dark-theme variables

@@ -11,6 +11,7 @@ from openedx.core.djangolib.markup import HTML, Text
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="home style-logout">
       <header>
+      <img src="/static/t3-edx-theming/images/e_learning.png" >
         <div class="outer-wrapper">
           <div class="title">
             <div class="heading-group">
@@ -48,7 +49,32 @@ from openedx.core.djangolib.markup import HTML, Text
 
       </header>
       <%include file="${courses_list}" />
-
+            <div class="home_page_about">
+          <p>  Launched in 2008, T3 Aviation Academy is a 360° all-encompassing aviation training and educational organisation that is home to the world’s most recognised aviation training programmes in line with the industry’s highest standards.
+          
+With over 800 cadets and more than 500 graduates who went on to fly with MENA's leading low-cost carrier, Air Arabia, T3 specialises in aviation training solutions, offering the latest cadet programme – Active ATPL and MPL, CPL Airline Programme, Airbus A320 Type Rating, PPC Validation, Licence Renewals, Licence Conversion, ELP Assessments, GCAA Examination Centre, Flight Dispatch Training, Ground Handling Training, and IATA and CPD courses. The organisation holds approvals under several aviation authorities, providing pilots in its target regions with world-class training standards.</p>
+      </div>
+      <div id="about" class="home_page_vision">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="88px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+        </svg>
+        <div>
+          <h2> Our Vision</h2>
+          <p class="largeP"> To lead aviation training and services worldwide.</p>
+        </div>
+      </div>
+      <div class="home_page_mission">
+      <img src="https://t3-website.ams3.cdn.digitaloceanspaces.com/2fccbfdcf672694552271c3c9e9bfff8.jpg?updated_at=2023-09-14T08:17:36.466Z">
+        <div>
+          <h2> Our Mission</h2>
+          <ul> 
+            <li>To foster a culture of innovation, improvement, and excellence.</li>
+            <li>To develop efficient, high-quality coaching and training.</li>
+            <li>To be the world’s reference for multi-skilled human capital.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 </main>
 

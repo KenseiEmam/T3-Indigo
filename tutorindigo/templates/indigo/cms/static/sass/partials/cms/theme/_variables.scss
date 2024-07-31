@@ -1,5 +1,4 @@
-$primary: {{ INDIGO_PRIMARY_COLOR }};
-$secondary: #F2F7F8;
+
 
 $blue: $primary !default;
 $m-blue-d1: mix(white, $primary, 5%) !default;
@@ -18,3 +17,18 @@ $font-family-sans-serif: 'Inter', 'Open Sans','Helvetica Neue', Helvetica, Arial
 
 // Initialize the Open edX Bootstrap theme
 @import 'edx-bootstrap/sass/open-edx/theme';
+
+$primary:       #212D63 !default;
+$secondary:     #00ADEE !default;
+$inverse:       $white !default;
+$disabled:      $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$purchase:      $green !default;
+$lightest:      $gray-100 !default;
+$light:         $gray-200 !default;
+$dark:          $gray-800 !default;
+$darker:        $gray-900 !default;
+$darkest:       $black !default;

@@ -3,3 +3,148 @@
 #main{
     background-color: $secondary;
 }
+.wrapper-header {
+    background: #242d65;
+    position: sticky;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+
+
+.wrapper-header {
+    .primary {
+        .wrapper-l {
+            background: #242d65;
+        }
+    }
+}
+
+
+.wrapper-header {
+    .info-course {
+
+        border-right: 0px solid #e5e5e5;
+      
+    }
+    .primary {
+        .wrapper-r {
+            background: #242d65;
+        }
+    }
+}
+
+
+
+
+
+.wrapper {
+    .wrapper-header {
+        nav {
+            .nav-not-signedin-help {
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+.not-signedin {
+    .wrapper-header {
+        .nav-pitch {
+            .action-signup {
+                box-shadow: none;
+                background: transparent;
+            }
+        }
+    }
+}
+
+
+.not-signedin {
+    .wrapper-header {
+        .nav-pitch {
+            .action-signup {
+                &:hover {
+                    box-shadow: none;
+                    background: transparent;
+                }
+            }
+        }
+    }
+}
+
+
+.not-signedin {
+    .wrapper-header {
+        .nav-pitch {
+            .action-signin {
+                background: transparent;
+                text-shadow: none;
+                box-shadow: none;
+                color: #fff;
+                border-color: #fff;
+            }
+        }
+    }
+}
+
+
+.not-signedin {
+    .wrapper-header {
+        .nav-pitch {
+            .action-signin {
+                &:hover {
+                    background: #fff;
+                    color: #212D63;
+                }
+            }
+        }
+    }
+}
+
+
+.wrapper-header {
+	.branding {
+		a {
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+.wrapper-header {
+    .primary {
+        .wrapper-l {
+            span.course-org {
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+.wrapper-header {
+    .primary {
+        .wrapper-l {
+            span.course-number {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.wrapper-header {
+    .primary {
+        .wrapper-l {
+            span.course-title {
+                color: #fff;
+            }
+        }
+    }
+}
